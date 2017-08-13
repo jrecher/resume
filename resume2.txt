@@ -1,0 +1,33 @@
+header background color: #ffb880
+header name color: #fe0000
+header title color: #2d1024
+header height: 377px
+header 1px border-bottom #f6bb9b
+
+Main background color: #4b4f50
+Main margin/padding: 12px
+Main width: 65%
+Main text color: #ffffec
+Main icon & h2 color: #feb982
+Main hr #7d8182zzz
+
+Sidebar outter background color: #1a1a1a
+Sidebar inner background color: #323232
+Sidbar width: 35%
+Sidebar text color: #fefff3 & #efb17e
+Sidebar icon color: #efb17e
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    src:
+        local('MY First Font'),
+        local('my-First-Font'),
+        url('fonts/myfristfont.otf')
+        format(' ');
+    font-weight: bold;
+}
+
+grutchshaded
+exo
+market deco

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: GrutchShaded;
+    src:
+        local('Grutch Shaded'),
+        local('GrutchShaded'),
+        url('font/GrutchShaded.ttf')
+        format(' ');
+}
+
+@font-face {
+    font-family: Market_Deco;
+    src:
+        local('Market Deco'),
+        local('Market_Deco'),
+        url('font/Market_Deco.ttf')
+        format(' ');
+}
+
+@font-face {
+    font-family: Exo Regular;
+    src:
+        local('Exo Regular'),
+        local('Exo-Regular'),
+        url('font/Exo-Regular.otf')
+        format(' ');
+}
+
+body {
+  font-family: 'Exo Regular' serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-col {
+  width: 65%;
+  float: left;
+  background-color: #4b4f50;
+  border-top: 12px solid #1a1a1a;
+}
+
+.right-col {
+  width: 35%;
+  float: right;
+  background-color: #1a1a1a;
+}
+
+/*HEADER*/
+
+header {
+  background-color: #ffb880;
+  height: 180px;
+  border-bottom: 1px solid #f6bb9b;
+}
+
+h1, h6 {
+  text-align: right;
+  padding-right: 55px;
+}
+
+h1 {
+  color: #fe0000;
+  font-size: 70px;
+  font-family: 'Market_Deco';
+  padding-top: 70px;
+}
+
+h6 {
+  color: #2d1024;
+  margin-top: -50px;
+  font-family: 'Market_Deco';
+  font-style: italic;
+  font-size: 13px;
+}
+
+/*left-col*/
+
+h2 {
+  color: #feb982;
+  font-family: 'Market_Deco';
+  padding-left: 65px;
+  font-size: 25px;
+}
+
+i {
+  color: black;
+}
+
+h3 {
+  color: #feb982;
+  font-family: 'Market_Deco';
+  padding-left: 65px;
+  font-size: 20px;
+}
+
+h3 {
+ overflow: hidden;
+ text-align: left;
+}
+
+h3:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 70%;
+}
+
+h3:after {
+ left: .5em;
+}
+
+p {
+  color: #ffffec;
+  font-family: 'Exo';
+  font-weight: lighter;
+  padding-left: 65px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/*right-col*/
+
+.contact {
+  background-color: #323232;
+  color: #fefff3;
+  width: 255px;
+  margin-left: 80px;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: -39px;
+}
+
+a {
+  text-decoration: none;
+  color: #fefff3;
+}
+
+.icon-background1 {
+    color: #efb17e;
+}
+
+img {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90);
+  filter: grayscale(100%);
+  border-radius: 50%;
+  margin: 30px;
+  padding: 20px;
+  width: 300px;
+}

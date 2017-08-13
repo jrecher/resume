@@ -1,0 +1,294 @@
+body {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.left-col {
+  width: 40%;
+  float: left;
+}
+
+.right-col {
+  width: 60%;
+  float: right;
+}
+
+/***** HEADER *****/
+
+header {
+  background-color: #1f2729;
+  width: 100%;
+  height: 200px;
+}
+
+header h1,
+header h4 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header h1 {
+  padding-top: 25px;
+  font-size: 55px;
+}
+
+header h4 {
+  margin-top: -20px;
+}
+
+header span {
+  outline: 2px solid #cc9900;
+  outline-offset: 10px;
+}
+
+.contact li {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  margin-left: 25px;
+}
+
+.contact li a {
+  color: white;
+  text-decoration: none;
+}
+
+/***** LEFT-RIGHT *****/
+.left {
+  float: left;
+  list-style-type: none;
+  margin-top: -4px;
+  margin-left: -20px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.right {
+  float: right;
+  list-style-type: none;
+  margin-right: 115px;
+  margin-top: -4px;
+  line-height: 20px;
+}
+
+/***** ABOUT ME *****/
+.about-me {
+  height: auto;
+}
+
+.about-me h1 {
+  color: #cc9900;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.about-me h1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+  padding-top: 15px;
+  border-bottom: 3px double #d0a932;
+}
+
+/***** WORK *****/
+.work-exp,
+.edu {
+  height: auto;
+  margin-top: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #161817;
+}
+
+.work-exp h1 {
+  color: #d0a932;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.work-exp h1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 99%;
+  padding-top: 15px;
+  border-bottom: 3px double #d0a932;
+}
+
+.edu h1 {
+  color: #d0a932;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.edu h1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 99%;
+  padding-top: 15px;
+  border-bottom: 3px double #d0a932;
+}
+
+.pleft {
+  float: left;
+  margin-top: -4px;
+}
+
+.pright {
+  text-align: justify;
+  margin-left: 200px;
+  margin-top: -4px;
+}
+
+.work-exp span {
+  font-weight: bold;
+}
+
+.edu span {
+  font-weight: bold;
+}
+/***** SKILLS *****/
+.my-skills {
+  height: auto;
+}
+
+.skills-left {
+  line-height: 25px;
+  float: left;
+  font-weight: bold;
+  list-style-type: none;
+  margin-top: -4px;
+  margin-left: -20px;
+}
+
+.skills-right {
+  line-height: 25px;
+  float: right;
+  list-style-type: none;
+  margin-top: -4px;
+  margin-right: 30px;
+}
+
+.my-skills h1 {
+  clear: both;
+  color: #d0a932;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.my-skills h1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+  padding-top: 15px;
+  border-bottom: 3px double #d0a932;
+}
+
+/***** LANGUAGE ******/
+.lang {
+  height: auto;
+}
+
+.lang-left {
+  line-height: 25px;
+  float: left;
+  font-weight: bold;
+  list-style-type: none;
+  margin-top: -4px;
+  margin-left: -20px;
+}
+
+.lang-right {
+  line-height: 25px;
+  float: right;
+  list-style-type: none;
+  margin-top: -4px;
+  margin-right: 30px;
+}
+
+.lang h1 {
+  clear: both;
+  color: #d0a932;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.lang h1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+  padding-top: 15px;
+  border-bottom: 3px double #d0a932;
+}
+
+/***** REFS *****/
+.ref {
+  height: auto;
+}
+
+.ref h1 {
+  clear: both;
+  color: #d0a932;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.ref h1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+  padding-top: 15px;
+  border-bottom: 3px double #d0a932;
+}
+
+.ref p {
+  margin-left: 20px;
+}
+
+/***** INTERESTS *****/
+.interests {
+  height: auto;
+}
+
+.interests h1 {
+  clear: both;
+  color: #d0a932;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.interests h1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+  padding-top: 15px;
+  border-bottom: 3px double #d0a932;
+}
+
+.interests ul li{
+  margin-left: 20px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.text {
+  margin-left: 30px;
+}
